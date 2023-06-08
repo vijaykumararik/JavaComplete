@@ -1,0 +1,24 @@
+package com;
+
+public class Pattern {
+	public static void main(String[] args) {
+		
+		
+	
+	for(int i=1;i<=5;i++)
+	{ int x=1;
+		for(int j=5-1;j>=i;j--)
+		{
+		  System.out.print(" ");
+		  
+		}
+		for(int k=1;k<=i;k++)
+		{
+			System.out.print("2");
+		}
+		System.out.println();
+		
+	}
+
+}
+}

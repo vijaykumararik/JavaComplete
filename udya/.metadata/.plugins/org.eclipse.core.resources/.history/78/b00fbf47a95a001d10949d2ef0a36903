@@ -1,0 +1,15 @@
+package com;
+
+public class Overload {
+	 void display(int age)
+	{
+		System.out.println("hello my age is"+age );
+	}
+	 public static void main(String[] args) {
+		
+		Overload a =new Overload();
+		a.display(20);
+		 
+	}
+
+}

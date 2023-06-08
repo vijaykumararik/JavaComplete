@@ -1,0 +1,20 @@
+package com;
+
+import java.util.Scanner;
+
+public class Overload {
+	 void display()
+	{  
+		 Scanner s=new Scanner(System.in);
+		 System.out.println("enter the name ");
+		 String name=s.next();
+		 System.out.println("your name is "+name);
+	}
+	 public static void main(String[] args) {
+		
+		Overload a =new Overload();
+		a.display();
+		 
+	}
+
+}
